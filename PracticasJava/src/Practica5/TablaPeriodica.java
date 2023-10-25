@@ -23,7 +23,7 @@ public abstract class TareaPeriodica{
 	public void desactivar() { activa = false; }
 	
 	public abstract boolean necesitaEjecucion();
-		//return false;
+		//return false
 		// Metodo blanco intencionalmente
 	
 	
