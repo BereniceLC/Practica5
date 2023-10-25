@@ -12,6 +12,7 @@ public class Reloj extends TareaPeriodica {
 		return cal.get(Calendar.HOUR_OF_DAY) + ":" + cal.get(Calendar.MINUTE);
 	}
 	
+	//Nuevos metodos añadidos
 	public boolean necesitaEjecucion(){
 		Calendar cal = new GregorianCalendar();
 		cal.setTime(ultimaEjecucion);
