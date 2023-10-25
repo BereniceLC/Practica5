@@ -12,7 +12,7 @@ public class Reloj extends TareaPeriodica {
 		return cal.get(Calendar.HOUR_OF_DAY) + ":" + cal.get(Calendar.MINUTE);
 	}
 	
-	public boolean necesitaEjecucuion(){
+	public boolean necesitaEjecucion(){
 		Calendar cal = new GregorianCalendar();
 		cal.setTime(ultimaEjecucion);
 		cal.add(Calendar.SECOND, periodo);
@@ -23,7 +23,7 @@ public class Reloj extends TareaPeriodica {
 
 	public int ejecutarTarea(){
 		Calendar c = new GregorianCalendar();
-		System.out.println(String.format("%d%d%d", c.get(Calendar.Hour), c.get(Calendar.MINUTE), c.get(Calendar.SECOND)));
+		System.out.println(String.format("%d%d%d", c.get(Calendar.HOUR), c.get(Calendar.MINUTE), c.get(Calendar.SECOND)));
 		return 0;
 	}
 }

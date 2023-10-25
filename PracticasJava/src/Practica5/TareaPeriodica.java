@@ -27,8 +27,9 @@ public abstract class TareaPeriodica{
 		// Metodo blanco intencionalmente
 	
 	
-	public abstract int ejecutarTarea();
+	public abstract int ejecutarTarea(); 
 		//return 0;
-		// Metodo blanco intencionalmente
+		// Método blanco intencionalmente
+	
 	
 }
